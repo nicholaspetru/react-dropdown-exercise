@@ -1,0 +1,39 @@
+#dropdown_container {
+  position: relative;
+  display: inline-block;
+
+  p, ul {
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+  }
+
+  .submenu_container {
+    position: absolute;
+    .item_block {
+      margin: 0;
+      width: 200px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    li {
+      background-color: pink;
+      .submenu_container {
+        display: none;
+      }
+      li {
+        background-color: violet;
+        .submenu_container li {
+          background-color: lightgreen;
+        }
+      }
+      &:hover > div > .submenu_container, &:hover > div > p {
+        display: inline-block;
+      }
+      &:not(:last-child) {
+        border-bottom: 1px solid black;
+      }
+    }
+  }
+}
