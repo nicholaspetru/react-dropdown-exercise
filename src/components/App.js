@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Submenu from './submenu';
-import MENU from './dropdown_menu'
+import MENU from '../dropdown_menu'
 
 class App extends Component {
   render() {

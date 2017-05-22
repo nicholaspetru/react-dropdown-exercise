@@ -1,7 +1,7 @@
 Hipcamp:
 - To run the app, open the directory in Terminal and run "npm start"
 - This should open the app in a new browser tab. Otherwise, you should find it on http://localhost:3000/
-- Index.js is the main Javascript file, but utilizes the App, Submenu, and SubmenuItem React components to construct the dropdown. (all in src folder)
+- Index.js is the main Javascript file, but utilizes the App, Submenu, and SubmenuItem React components to construct the dropdown. (all in src/components/ folder)
 - Main stylesheet is src/stylesheets/dropdown_menu.scss
 - To reiterate, I used Create React App to hastily put together a React app to facilitate the dropdown menu exercise.
 
